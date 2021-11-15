@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
 :root{
 --vt-purple: 89, 49, 150;
+--vt-box: 248, 244, 255;
+--bs-indigo: #6610f2;
+--vic-font-family: 'Shippori Antique B1', sans-serif;
 }
 
 .fundi1{
@@ -13,4 +17,17 @@
 .text-purple{
 
  color:  rgba(var(--vt-purple)) ;
+}
+
+
+/*CAIXA DE TEXTO */
+
+.vic-box{
+    background-color: rgb(var(--vt-box));
+    padding: 35px;
+
+}
+
+.vic-box h6{
+    color: var(--bs-indigo);
 }
