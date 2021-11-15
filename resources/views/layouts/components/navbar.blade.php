@@ -16,9 +16,8 @@
                 </a>
 
                 <ul class="nav nav-pills">
-                    <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Inicial</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Web sites</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Moodle</a></li>
+                    <li class="nav-item"><a href="#sobre" class="nav-link" aria-current="page">Sobre</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Soluções</a></li>
                     <li class="nav-item"><a href="#" class="nav-link active">Contato</a></li>
                 </ul>
             </header>

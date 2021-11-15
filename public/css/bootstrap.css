@@ -4115,7 +4115,7 @@ fieldset:disabled .btn {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #593196;
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -4175,8 +4175,8 @@ fieldset:disabled .btn {
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #593196;
+  color: #593196;
+  background-color: #fff;
 }
 
 .nav-fill > .nav-link,
@@ -11053,6 +11053,7 @@ fieldset:disabled .btn {
   }
   .fs-4 {
     font-size: 1.5rem !important;
+    color:rgba(255, 255, 255, 0.9);
   }
 }
 

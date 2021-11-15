@@ -17,9 +17,14 @@
 .text-purple{
 
  color:  rgba(var(--vt-purple)) ;
+font-weight: bold;
 }
-
-
+.text-blank{
+    color:#fff;
+}
+.p5{
+    margin-top: 150px;
+}
 /*CAIXA DE TEXTO */
 
 .vic-box{
@@ -30,4 +35,8 @@
 
 .vic-box h6{
     color: var(--bs-indigo);
+}
+
+.text-menor{
+    font-size: 0.8rem;
 }

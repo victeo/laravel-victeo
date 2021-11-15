@@ -5,25 +5,24 @@
         }
 
     </style>
-    <div class="container ">
+    <div class="container  ">
         <div class="row">
 
             <div class="col-md-6 d-flex flex-column justify-content-center ">
 
-                <div class=" ">
-                    <h1 class="text-purple">Soluções modernas para crescer seus negócios</h1>
+                <div class="p5">
+                    <h1 class="text-blank">Soluções simples e modernas para o seu negócio</h1>
                     <br>
-                    <p>Made with <strong>Bootstrap <svg class="bi" width="24" height="24">
+                    <p class="text-blank">Made with <strong>Bootstrap <svg class="bi" width="24" height="24">
                                 <use xlink:href="#heard" />
                             </svg></strong></p>
-                    <a class="btn btn-primary btn-lg" href="#">Faça seu orçamento</a>
+                    <a class="btn btn-outline-light btn-lg" href="#">Faça seu orçamento</a>
                 </div>
 
 
             </div>
             <div class="col-lg-6 hero-img aos-init aos-animate" data-aos="zoom-out" data-aos-delay="200">
 
-                <img class="img-fluid d-block" src="/img/img1.png">
 
             </div>
         </div>
@@ -38,16 +37,16 @@
     </svg>
     </section>
 
-    <section class="afastar">
+    <section class="afastar" id="sobre">
 
         <div class="container ">
             <div class="row justify-content-center">
 
                 <div class="col-md-6 d-flex flex-column ">
                     <div class="vic-box">
-                        <h6>QUEM EU SOU</h6>
-                        <h2 class="text-purple">Victor Teodoro</h2>
-                        <p>Me chamo Victor Teodoro, trabalho na área de designer instrucional e web designer a 8 anos.</p>
+                        <h6>SOBRE</h6>
+                        <h2 class="text-purple ">Victor Teodoro</h2>
+                        <p>Me chamo Victor Teodoro, trabalho na área de designer instrucional e web designer a 8 anos. Estou aqui para tornar mais simples antigos problemas!</p>
                         <p><strong>Tecnologias usadas</strong>.</p>
 
                         <div class="row">
@@ -64,9 +63,10 @@
                                 Avançado
                             </div>
                         </div>
+                        <br>
                         <div class="row">
                             <div class="col-2">
-                                HML
+                                <p class="text-menor">HML & CSS</p>
                             </div>
                             <div class="col-10">
                                 <div class="progress">
@@ -78,36 +78,84 @@
                         <br>
                         <div class="row">
                             <div class="col-2">
-                                CSS
-                            </div>
-                            <div class="col-10">
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row">
-                            <div class="col-2">
-                                PHP
-                            </div>
-                            <div class="col-10">
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 45%;"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row">
-                            <div class="col-2">
-                                LARAVEL
+                                <p class="text-menor">PHP & LARAVEL</p>
                             </div>
                             <div class="col-10">
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                                         aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 55%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-2">
+                                <p class="text-menor">PACOTE</p>
+                            </div>
+                            <div class="col-10">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 55%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-2">
+                                <p class="text-menor">MOODLE</p>
+                            </div>
+                            <div class="col-10">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-2">
+                                <p class="text-menor">WORDPRESS</p>
+                            </div>
+                            <div class="col-10">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-2">
+                                <p class="text-menor">ADOBE ILLUSTRATOR</p>
+                            </div>
+                            <div class="col-10">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-2">
+                                <p class="text-menor">ADOBE PHOTOSHOP</p>
+                            </div>
+                            <div class="col-10">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-2">
+                                <p class="text-menor">ADOBE PREMIERE</p>
+                            </div>
+                            <div class="col-10">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"></div>
                                 </div>
                             </div>
                         </div>
@@ -121,12 +169,7 @@
         </div>
 
     </section>
-    <div class="d-flex justify-content-start">...</div>
-    <div class="d-flex justify-content-end">...</div>
-    <div class="d-flex justify-content-center">...</div>
-    <div class="d-flex justify-content-between">...</div>
-    <div class="d-flex justify-content-around">...</div>
-    <div class="d-flex justify-content-evenly">...</div>
+
 
 
 @endsection
