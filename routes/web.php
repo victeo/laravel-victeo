@@ -18,10 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/ola', function(){
 
-    echo "Hello World!!";
-
-});
-
-Route::get('/jogos', 'App\Http\Controllers\JogoController@listarJogos') ->name('jogos');;
