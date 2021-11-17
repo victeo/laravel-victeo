@@ -8,9 +8,9 @@
     <div class="container  ">
         <div class="row">
 
-            <div class="col-md-6 d-flex flex-column justify-content-center ">
+            <div id="text_disappear" class="col-md-6 d-flex flex-column justify-content-center">
 
-                <div class="p5">
+                <div class="p5" data-anime="up">
                     <h1 class="text-blank">Soluções simples e modernas para o seu negócio</h1>
                     <br>
                     <p class="text-blank">Made with <strong>Bootstrap <svg class="bi" width="24" height="24">
@@ -43,7 +43,7 @@
             <div class="row justify-content-center">
 
                 <div class="col-md-6 d-flex flex-column ">
-                    <div class="vic-box">
+                    <div class="vic-box" data-anime="left">
                         <h6>SOBRE</h6>
                         <h2 class="text-purple ">Victor Teodoro</h2>
                         <p>Me chamo Victor Teodoro, trabalho na área de designer instrucional e web designer a 8 anos. Estou
@@ -162,7 +162,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 d-flex flex-column">
+                <div class="col-md-6 d-flex flex-column" data-anime="right">
                     <img class="img-fluid d-block" src="/img/img1.png">
 
                 </div>

@@ -52,3 +52,27 @@
     -moz-transition: all 0.35s;
     transition: all 0.35s;
 }
+
+/* Animações de entrada dos elementos */
+
+[data-anime] {
+    opacity: 0;
+    transition: 0.9s;
+}
+
+[data-anime="left"] {
+    transform: translate3D(-50px, 0, 0);
+}
+
+[data-anime="right"] {
+    transform: translate3D(50px, 0, 0);
+}
+
+[data-anime="up"] {
+    transform: translate3D(0, 50px, 0);
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0, 0,0);
+}
