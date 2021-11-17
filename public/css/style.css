@@ -1,42 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
-:root{
---vt-purple: 89, 49, 150;
---vt-box: 248, 244, 255;
---bs-indigo: #6610f2;
---vic-font-family: 'Shippori Antique B1', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap");
+:root {
+    --vt-purple: 89, 49, 150;
+    --vt-box: 248, 244, 255;
+    --vt-roxo-forte: #1a0c33;
+    --bs-indigo: #6610f2;
+    --vic-font-family: "Shippori Antique B1", sans-serif;
 }
 
-.fundi1{
-    background-image: url('/img/fund.png');
+.menuFixo {
+    background-color: var(--vt-roxo-forte);
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.21);
+}
+
+.fundi1 {
+    background-image: url("/img/fund.png");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.text-purple{
-
- color:  rgba(var(--vt-purple)) ;
-font-weight: bold;
+.text-purple {
+    color: rgba(var(--vt-purple));
+    font-weight: bold;
 }
-.text-blank{
-    color:#fff;
+.text-blank {
+    color: #fff;
 }
-.p5{
-    margin-top: 150px;
+.p5 {
+    margin-top: 250px;
 }
 /*CAIXA DE TEXTO */
 
-.vic-box{
+.vic-box {
     background-color: rgb(var(--vt-box));
     padding: 35px;
-
 }
 
-.vic-box h6{
+.vic-box h6 {
     color: var(--bs-indigo);
 }
 
-.text-menor{
+.text-menor {
     font-size: 0.8rem;
+}
+.fixed-top {
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
 }

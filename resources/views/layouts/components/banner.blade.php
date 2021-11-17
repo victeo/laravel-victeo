@@ -46,7 +46,8 @@
                     <div class="vic-box">
                         <h6>SOBRE</h6>
                         <h2 class="text-purple ">Victor Teodoro</h2>
-                        <p>Me chamo Victor Teodoro, trabalho na área de designer instrucional e web designer a 8 anos. Estou aqui para tornar mais simples antigos problemas!</p>
+                        <p>Me chamo Victor Teodoro, trabalho na área de designer instrucional e web designer a 8 anos. Estou
+                            aqui para tornar mais simples antigos problemas!</p>
                         <p><strong>Tecnologias usadas</strong>.</p>
 
                         <div class="row">
@@ -167,6 +168,37 @@
                 </div>
             </div>
         </div>
+        <div class="py-5" id="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="pb-4">Features from the future</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="align-self-center text-md-right text-center col-lg-4 col-md-6">
+                        <h4 class="text-primary">Designe responsivo</h4>
+                        <p class="mb-5">Based on fluid design principles. <br>Works with any screen resolution</p>
+                        <h4 class="text-primary">Customização</h4>
+                        <p class="mb-5">Choose settings depending on the criteria you value the most. With no
+                            limits.</p>
+                        <h4 class="text-primary">Atendimento personalizado</h4>
+                        <p class="mb-5">In-app chat panel 24/7 active. <br>The support you need, right there.</p>
+                    </div>
+                    <div class="my-3 col-md-4 d-none d-lg-block"> <img class="img-fluid d-block mx-auto animate-in-down"
+                            src="img/mobile.png" width="300"> </div>
+                    <div class="align-self-center text-md-left text-center col-lg-4 col-md-6">
+                        <h4 class="text-primary">Designer instrucional</h4>
+                        <p class="mb-5">Non consuming background operation for longer mobile life</p>
+                        <h4 class="text-primary">Suporte</h4>
+                        <p class="mb-5">Work simultaneously on different panels with the switcher</p>
+                        <h4 class="text-primary">Vídeo edição</h4>
+                        <p class="mb-5">Help us spreading the word. <br>Tell your friends with just one-click</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
     </section>
 
