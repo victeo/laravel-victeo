@@ -15,6 +15,7 @@
     box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.21);
 }
 
+
 .fundi1 {
     background-image: url("/img/fund.png");
     background-size: cover;
@@ -72,7 +73,23 @@
     transform: translate3D(0, 50px, 0);
 }
 
+[data-anime="dow"] {
+    transform: translate3D(0, -50px, 0);
+}
+
 [data-anime].animate {
     opacity: 1;
     transform: translate3d(0, 0,0);
+}
+
+/* Icons */
+.icons-dev{
+    font-size: 2rem;
+    color: #ffffff;
+}
+.afastar {
+    padding-top: 50px;
+}
+.about{
+    background-color: #1a0c33;
 }

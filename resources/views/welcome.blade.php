@@ -4,7 +4,7 @@
 
 @extends('layouts.components.navbar')
 
-@extends('layouts.components.banner')
+@extends('layouts.pages.page')
 
 
 

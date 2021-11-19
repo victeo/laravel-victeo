@@ -92,7 +92,7 @@
 
     <!-- Scripts -->
 
-    <script src="{{ secure_asset('js/script.js') }}"></script>
+    <script src="{{ asset('js/script.js') }}"></script>
 
 
 @endsection

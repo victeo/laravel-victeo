@@ -74,6 +74,9 @@
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+    transition-duration: 500ms;
+
   }
 }
 
